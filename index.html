@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#4CAF50">
+  <title>EcoApp 🌍</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Pantalla de Bienvenida -->
+  <div id="welcome-screen" class="welcome-screen">
+    <h1>🌍 Bienvenido a EcoApp</h1>
+    <p>Descubre cómo puedes salvar el planeta con pequeños cambios diarios.</p>
+    <button id="start-btn" class="btn-green">Empezar</button>
+  </div>
+
+  <header>
+    <h1>🌍 EcoApp</h1>
+    <p id="subtext">Descubre cómo puedes salvar el planeta con pequeños cambios diarios.</p>
+  </header>
+<!-- Video y texto principal -->
+  <section id="video-section">
+    <h2>¿Por qué es importante cuidar el medio ambiente?</h2>
+    <div class="video-container" style="text-align: center;">
+      <iframe 
+        width="300" 
+        height="360" 
+        src="https://www.youtube.com/embed/aWgHk8Mso0s" 
+        title="¿Por qué es importante cuidar el medio ambiente?"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+  <nav>
+    <button id="ecologico" class="btn-green">🌱 ¿Cómo ser ecológico?</button>
+    <button id="beneficios" class="btn-blue">💚 Beneficios de ser ecológico</button>
+    <button id="consecuencias" class="btn-red">⚠ Consecuencias de no ser ecológico</button>
+    <button id="innovaciones" class="btn-yellow">🚀 Innovaciones ecológicas</button>
+    <button id="huella" class="btn-purple">🌏 Reducir tu huella de carbono</button>
+    <button id="reciclaje" class="btn-cyan">♻ El Reciclaje</button>
+    <button id="energias" class="btn-orange">🔋 Energías Renovables</button>
+    <button id="comunidades" class="btn-pink">👥 El poder de las comunidades</button>
+    <button id="movilidad" class="btn-teal">🚶‍♂ Movilidad Sostenible</button>
+    <button id="comida" class="btn-lime">🥦 Alimentación Sostenible</button>
+  </nav>
+
+  <main id="content">
+    <p>🌎 Selecciona un tema para explorar información detallada sobre ecología.</p>
+  </main>
+
+  <!-- Contenedor para el botón EcoCita -->
+  <div id="ecocita-container">
+    <button id="btn-ecocita" class="btn-ecocita">🌟 EcoCita</button>
+  </div>
+
+  <footer>
+    <div id="progress-bar-container">
+      <span id="progress-text">Progreso: 0/10</span>
+      <div id="progress-bar">
+        <div id="progress-fill"></div>
+      </div>
+    </div>
+    <p>&copy; 2024 EcoApp - Cambia el mundo, una acción a la vez.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
